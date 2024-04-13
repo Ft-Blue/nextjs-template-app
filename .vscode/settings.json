@@ -1,4 +1,6 @@
 {
-    "eslint.codeActionsOnSave.rules": null,
-    "eslint.format.enable": true
+  "eslint.codeActionsOnSave.rules": null,
+  "eslint.format.enable": true,
+  "editor.formatOnSave": true,
+  "jestrunner.runOptions": ["--silent", "--coverage=false"]
 }
