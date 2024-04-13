@@ -12,7 +12,7 @@
     "check-code": "npm run lint && npm run check-types",
     "test": "jest --silent --watchAll --coverage=false",
     "test:coverage": "jest --silent --coverage",
-    "test:ci": "jest --silent --ci --maxWorkers=1"
+    "test:ci": "jest --silent --ci --maxWorkers=1 --passWithNoTests"
   },
   "dependencies": {
     "next": "14.2.1",
